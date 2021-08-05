@@ -1,0 +1,26 @@
+body {
+  /* display: flex; */
+  /* justify-content: center; */
+  background-image: url("./0R4A8590.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 100%; */
+  position: absolute;
+  width: 100%;
+}
+
+.recipes {
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 100%;
+  overflow: auto;
+}
+.recipe {
+  background-color: pink;
+  opacity: 0.6;
+  margin: 5%;
+  height: 100%;
+  overflow: auto;
+}
