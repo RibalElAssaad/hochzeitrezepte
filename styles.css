@@ -23,6 +23,10 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+.block {
+  display: flex;
+  flex-direction: column;
+}
 .recipes {
   display: flex;
   flex-direction: row nowrap;
