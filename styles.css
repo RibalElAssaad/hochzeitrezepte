@@ -1,14 +1,28 @@
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 40px;
+}
 body {
-  /* display: flex; */
-  /* justify-content: center; */
-  background-image: url("./0R4A8590.jpg");
+  /* background-image: url("./0R4A8590.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+   */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* background-position: 75%; */
   /* height: 100%; */
-  position: absolute;
-  width: 100%;
-}
+  /* position: absolute; */
+  /* width: 100%; */
 
+  /* */
+
+  background: url("./0R4A8590.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .recipes {
   display: flex;
   flex-direction: row nowrap;
@@ -23,4 +37,18 @@ body {
   margin: 5%;
   height: 100%;
   overflow: auto;
+  flex: 1;
+}
+button {
+  background-color: pink;
+  opacity: 0.6;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
 }
